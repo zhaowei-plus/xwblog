@@ -1,8 +1,8 @@
 ---
 title: Rxjs学习入门
 date: 2019-11-12 10:39:35
-tags: [rxjs, 响应式编程]
-categories: 响应式编程
+tags: [Rxjs, 响应式编程]
+categories: Rxjs
 ---
 
 **前言**

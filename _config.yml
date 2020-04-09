@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 一入前端终后悔，你已经踏入慢慢学习之路
+title: 前端小谁谁
 subtitle: '前端小猿，努力工作'
 description: '前段杂货铺，正在储货中...'
 keywords:
-author: 校尉
+author: 赵伟
 language: zh-CN
 timezone: ''
 
@@ -90,7 +90,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: indigo
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
