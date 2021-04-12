@@ -1,10 +1,3 @@
----
-title: Node ORM Sequelize 小记
-date: 2019-11-12 10:39:35
-tags: [Node, Sequelize]
-categories: Node
----
-> by zhaowei 2019/12/19
 ![](https://global.uban360.com/sfs/file?digest=fide187c6cabd9211c3e29dfabd9384faeb&fileType=2)
 > 图片地址：https://global.uban360.com/sfs/file?digest=fide187c6cabd9211c3e29dfabd9384faeb&fileType=2
 

@@ -68,7 +68,10 @@ while(true) {
 
  拉取和推送是两种不同的协议，用来描述数据生产者 (Producer)如何与数据消费者 (Consumer)进行通信的。
 
-![avatar](./images/1.jpg)
+|     | 生产者   | 消费者 |
+|  ----  | ----  | ----  |
+| 拉取（pull）| 被动的：当被调用（请求时）产生数据  | 主动的：决定何时请求数据    |
+| 推送（push）| 主动的：按照自己的节奏产生数据     | 被动的：对收到的数据作出反应 |
 
 -   Function 是惰性的评估运算，调用时会同步地返回一个单一值。
 -   Generator 是惰性的评估运算，调用时会同步地返回零到(有可能的)无限多个值。
@@ -77,12 +80,14 @@ while(true) {
 
 值得获取关系如下：
 
-![avatar](./images/2.jpg)
-
+|  生产者 | 消费者 |  单值 | 多值 |
+|  ----  | ----  | ---- | ---- |
+| 拉取（pull）| 主动的：决定何时请求数据    | Function | Iterator |
+| 推送（push）| 被动的：对收到的数据作出反应 | Promise | Observable |
 
 ## RxJS基本概念
 
-​RxJS 是 Reactive Extensions for JavaScript 的缩写，起源于 Reactive Extensions，是一个基于**可观测数据流**在异步编程应用中的库（可以理解为异步的lodash），是基于观察者模式和迭代器模式并以函数式编程来实现的库。
+RxJS 是 Reactive Extensions for JavaScript 的缩写，起源于 Reactive Extensions，是一个基于**可观测数据流**在异步编程应用中的库（可以理解为异步的lodash），是基于观察者模式和迭代器模式并以函数式编程来实现的库。
 
 Rxjs使用Observables的响应式编程的库，可以更容易的编写异步货基于回调处理的代码，采用观察者模式、迭代器模式和函数编程思想，基于流的概念对数据进行处理
 
